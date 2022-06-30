@@ -1,0 +1,10 @@
+.beer-single {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: rgb(195 171 76);
+    width: 250px;
+    text-align: left;
+    word-break: break-word;
+}

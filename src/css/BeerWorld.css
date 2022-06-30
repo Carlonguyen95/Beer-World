@@ -1,0 +1,26 @@
+.beer-world {
+    min-height: 100vh;
+    width: 100%;
+    background-color: rgb(243, 223, 144, 1);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.beer-world-content {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.beer-world-action-button button {
+    cursor: pointer;
+    padding: var(--padding-button);
+    background-color: transparent;
+    border-radius: var(--border-radius);
+    margin-bottom: 40px;
+}
