@@ -1,4 +1,5 @@
 # About the project
+A simple vitejs react typescript project fetching beer from an api
 
 ## Project setup
 This project is setup by using the build tool Vite. Code is written in React with Typescript. (https://vitejs.dev/).
