@@ -5,7 +5,7 @@ export async function get_list_of_beer(number: number = 12) {
   const apiUrl = "https://api.openbrewerydb.org/breweries?per_page=";
 
   try {
-    let res = await axios.get<Beer[]>(apiUrl + number);
+    let res = await axios.get(apiUrl + number);
     return res.data;
   } catch (err) {
     console.error(err);
@@ -16,7 +16,7 @@ export async function get_a_random_beer() {
   const apiUrl = "https://api.openbrewerydb.org/breweries/random";
 
   try {
-    let res = await axios.get<Beer>(apiUrl);
+    let res = await axios.get(apiUrl);
     return res.data;
   } catch (err) {
     console.error(err);
